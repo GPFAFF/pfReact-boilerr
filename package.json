@@ -1,0 +1,33 @@
+{
+  "name": "react-boiler",
+  "version": "1.0.0",
+  "description": "React BoilerPlate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "start": "webpack-dev-server",
+    "test": "jest ./test"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./test/enzyme.setup.js"
+  },
+  "author": "Greg Pfaff",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.2",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.6.1"
+  },
+  "dependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  }
+}
