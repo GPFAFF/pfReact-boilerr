@@ -86,13 +86,13 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/*!*************************!*\
-  !*** multi ./src/index ***!
-  \*************************/
+/*!****************************!*\
+  !*** multi ./src/index.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-!(function webpackMissingModule() { var e = new Error("Cannot find module '/Users/gapfaff22/Desktop/dev/react-boiler/src/index'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+!(function webpackMissingModule() { var e = new Error("Cannot find module '/Users/gapfaff22/Desktop/dev/react-boiler/src/index.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 /***/ })
