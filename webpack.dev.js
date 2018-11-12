@@ -8,5 +8,5 @@ module.exports = merge(common, {
     host: 'localhost',
     port: '8888',
     open: true,
-  }
-})
+  },
+});
