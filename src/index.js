@@ -4,4 +4,4 @@ import App from './components/App';
 
 import './styles/main.scss';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App header='React Boiler' />, document.getElementById('root'));

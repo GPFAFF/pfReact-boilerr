@@ -3,8 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-  devtool: 'inline-source-map',
-  mode: 'development',
   entry: {
     main: './src/index.js'
   },
@@ -23,7 +21,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/, exclude: /node_modules/, loaders: 'babel-loader'
+        test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ['babel-loader', 'eslint-loader']
       },
       {
         test: /\.s(a|c)ss$/,
